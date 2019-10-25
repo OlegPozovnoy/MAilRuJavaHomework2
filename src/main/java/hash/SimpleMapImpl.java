@@ -15,28 +15,18 @@ public class SimpleMapImpl<K, V> implements SimpleMap<K, V> {
         if (table == null)
             table = new Object[tableLength];
 
-        int index = getNodeIndex(key);
-        Node node = (Node) table[index];
-
-        if (node == null) {
-            table[index] = new Node(key, value);
+        Node node = findNodeByKey(key);
+        if (node != null){
+            node.value = value;
+            return node.value;
+        } else{
+            //вставляем едемент в начало
+            Node newNode  = new Node(key, value);
+            newNode.next = (Node)table[getNodeIndex(key)];
+            table[getNodeIndex(key)] = newNode;
             size++;
             extend();
             return value;
-        } else if (nodeKeyEquals(node, key)) {
-            node.value = value;
-            return node.value;
-        } else {
-            node = findPrevNodeByKey(key);
-            if (node.next != null) {
-                node.next.value = value;
-                return value;
-            } else {
-                node.next = new Node(key, value);
-                size++;
-                extend();
-                return value;
-            }
         }
     }
 
