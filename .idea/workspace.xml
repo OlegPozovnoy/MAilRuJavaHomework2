@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffbf3ded-0220-4df9-bb06-fd2ac1e7b677" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hash/SimpleMapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hash/SimpleMapImpl.java" afterDir="false" />
     </list>
@@ -26,33 +23,34 @@
     <session id="437461170">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="8" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="4930" />
+          <entry key="java" value="4933" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4930" />
+          <entry key="JAVA" value="4933" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -60,7 +58,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/hash/SimpleMapImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
@@ -81,22 +79,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hash/SimpleMapImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="108" column="34" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="34" />
-              <folding>
-                <element signature="e#2127#2128#0" expanded="true" />
-                <element signature="e#2176#2177#0" expanded="true" />
-                <element signature="e#2201#2202#0" expanded="true" />
-                <element signature="e#2233#2234#0" expanded="true" />
-                <element signature="e#2931#2932#0" expanded="true" />
-                <element signature="e#3010#3011#0" expanded="true" />
-                <element signature="e#3959#3960#0" expanded="true" />
-                <element signature="e#4035#4036#0" expanded="true" />
-                <element signature="e#3965#3977#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="373">
+              <caret line="119" column="24" lean-forward="true" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.3.1/297bb35bca3d229c5e6edbffd22de7b5ad4cf430/junit-platform-commons-1.3.1-sources.jar!/org/junit/platform/commons/util/ReflectionUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="517" selection-start-line="517" selection-end-line="517" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hash/SimpleMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -117,6 +122,7 @@
       <find>node.key.equals</find>
       <find>findPre</find>
       <find>findPrevNodeByKey</find>
+      <find>extend</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -446,6 +452,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -504,7 +511,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -552,7 +558,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="[engine:junit-jupiter]/[class:hash.SimpleMapImplTest] (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleMapImplTest.put" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homework2_test" />
       <extension name="coverage">
         <pattern>
@@ -562,15 +568,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="hash" />
       <option name="MAIN_CLASS_NAME" value="hash.SimpleMapImplTest" />
-      <option name="TEST_OBJECT" value="uniqueId" />
-      <uniqueIds>
-        <uniqueId value="[engine:junit-jupiter]/[class:hash.SimpleMapImplTest]" />
-      </uniqueIds>
+      <option name="METHOD_NAME" value="put" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="[engine:junit-jupiter]/[class:hash.SimpleMapImplTest] (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="[engine:junit-jupiter]/[class:hash.SimpleMapImplTest] (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homework2_test" />
       <extension name="coverage">
         <pattern>
@@ -625,19 +629,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.[engine:junit-jupiter]/[class:hash.SimpleMapImplTest] (3)" />
       <item itemvalue="JUnit.[engine:junit-jupiter]/[class:hash.SimpleMapImplTest] (4)" />
       <item itemvalue="JUnit.[engine:junit-jupiter]/[class:hash.SimpleMapImplTest] (5)" />
       <item itemvalue="JUnit.[engine:junit-jupiter]/[class:hash.SimpleMapImplTest] (2)" />
       <item itemvalue="JUnit.SimpleMapImplTest" />
+      <item itemvalue="JUnit.SimpleMapImplTest.put" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SimpleMapImplTest" />
+        <item itemvalue="JUnit.SimpleMapImplTest.put" />
         <item itemvalue="JUnit.[engine:junit-jupiter]/[class:hash.SimpleMapImplTest] (2)" />
         <item itemvalue="JUnit.[engine:junit-jupiter]/[class:hash.SimpleMapImplTest] (5)" />
         <item itemvalue="JUnit.[engine:junit-jupiter]/[class:hash.SimpleMapImplTest] (4)" />
-        <item itemvalue="JUnit.[engine:junit-jupiter]/[class:hash.SimpleMapImplTest] (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -649,29 +653,12 @@
       <option name="presentableId" value="Default" />
       <updated>1571924848049</updated>
       <workItem from="1571924852413" duration="12156000" />
-      <workItem from="1572028038441" duration="1890000" />
+      <workItem from="1572028038441" duration="2416000" />
+      <workItem from="1572066192015" duration="312000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SimpleMapImplTest - 2019.10.24 at 23h 19m 47s.xml">
-      <configuration name="SimpleMapImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimpleMapImplTest - 2019.10.24 at 23h 20m 33s.xml">
-      <configuration name="SimpleMapImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="[engine_junit-jupiter]_[class_hash_SimpleMapImplTest]_(2) - 2019.10.24 at 23h 21m 16s.xml">
-      <configuration name="[engine:junit-jupiter]/[class:hash.SimpleMapImplTest] (2)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="[engine_junit-jupiter]_[class_hash_SimpleMapImplTest] - 2019.10.24 at 23h 22m 43s.xml">
-      <configuration name="[engine:junit-jupiter]/[class:hash.SimpleMapImplTest]" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="[engine_junit-jupiter]_[class_hash_SimpleMapImplTest]_(1) - 2019.10.24 at 23h 23m 53s.xml">
-      <configuration name="[engine:junit-jupiter]/[class:hash.SimpleMapImplTest] (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="[engine_junit-jupiter]_[class_hash_SimpleMapImplTest]_(3) - 2019.10.24 at 23h 25m 00s.xml">
-      <configuration name="[engine:junit-jupiter]/[class:hash.SimpleMapImplTest] (3)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="[engine_junit-jupiter]_[class_hash_SimpleMapImplTest]_(4) - 2019.10.24 at 23h 26m 13s.xml">
       <configuration name="[engine:junit-jupiter]/[class:hash.SimpleMapImplTest] (4)" configurationId="JUnit" />
     </history-entry>
@@ -684,15 +671,33 @@
     <history-entry file="SimpleMapImplTest - 2019.10.25 at 21h 58m 48s.xml">
       <configuration name="SimpleMapImplTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SimpleMapImplTest - 2019.10.26 at 08h 04m 38s.xml">
+      <configuration name="SimpleMapImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleMapImplTest - 2019.10.26 at 08h 05m 56s.xml">
+      <configuration name="SimpleMapImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleMapImplTest_put - 2019.10.26 at 08h 06m 03s.xml">
+      <configuration name="SimpleMapImplTest.put" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleMapImplTest_put - 2019.10.26 at 08h 06m 18s.xml">
+      <configuration name="SimpleMapImplTest.put" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleMapImplTest - 2019.10.26 at 08h 08m 06s.xml">
+      <configuration name="SimpleMapImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleMapImplTest - 2019.10.26 at 08h 08m 31s.xml">
+      <configuration name="SimpleMapImplTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14646000" />
+    <option name="totallyTimeSpent" value="15484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -701,7 +706,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -728,6 +733,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/hash/SimpleMapImplTest.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="table" language="JAVA" />
@@ -760,7 +775,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hash/SimpleMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="289">
           <caret line="18" column="24" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="24" />
         </state>
       </provider>
@@ -772,30 +787,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hash/SimpleMapImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="119" column="24" lean-forward="true" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/hash/SimpleMapImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hash/SimpleMapImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="108" column="34" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="34" />
-          <folding>
-            <element signature="e#2127#2128#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
-            <element signature="e#2201#2202#0" expanded="true" />
-            <element signature="e#2233#2234#0" expanded="true" />
-            <element signature="e#2931#2932#0" expanded="true" />
-            <element signature="e#3010#3011#0" expanded="true" />
-            <element signature="e#3959#3960#0" expanded="true" />
-            <element signature="e#4035#4036#0" expanded="true" />
-            <element signature="e#3965#3977#0" expanded="true" />
           </folding>
         </state>
       </provider>

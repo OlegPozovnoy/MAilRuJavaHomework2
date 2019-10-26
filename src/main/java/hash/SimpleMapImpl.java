@@ -113,7 +113,7 @@ public class SimpleMapImpl<K, V> implements SimpleMap<K, V> {
             return null;
         else {
             while (node.next != null) {
-                if (node.next.key.equals(key))
+                if (nodeKeyEquals(node.next, key))
                     return node;
                 node = node.next;
             }
